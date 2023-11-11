@@ -66,6 +66,8 @@ Por último comparamos en el main mediante condicionales si la palabra es palind
     }
 ```
 
+Code: https://github.com/Luisito507/DataStructures/blob/3ebd272cb315911e00d4ceb43e5051b26c7c670b/Strings-Char/palindromo.cpp
+
 ## Actividad 2
 
 Escriba un programa que lea una frase compuesta por dos palabras en minuscula  e imprima en pantalla la misma frace con la primera letra de cada palabra en mayúscula.
