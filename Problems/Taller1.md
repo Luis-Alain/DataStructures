@@ -40,7 +40,7 @@ Ahora que tenemos la palabra introducida, vamos a comprobar si es palindromo o n
 Para ello vamos a crear una funcion que retorne un valor booleano (verdadero o falso) como se muestra a continuacion:
 
 ```c++
-bool esPalindromo(const char palabra[]) {
+bool esPalindromo(char palabra[]) {
     size_t longitud = strlen(palabra);
     
     // Invertir la cadena (algoritmo de burbuja)
