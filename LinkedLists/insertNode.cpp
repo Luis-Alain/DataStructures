@@ -47,6 +47,7 @@ int main() {
     insertNodeAtBeginning(head, 2);
     insertNodeAtBeginning(head, 1);
     insertNodeAtEnd(head, 4);
+    insertNodeAtEnd(head, 5);
 
     printList(head);
 
