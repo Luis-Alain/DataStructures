@@ -1,4 +1,3 @@
-.vscode
 # Archivos generados por la compilación
 *.o
 *.out
@@ -7,3 +6,6 @@
 # Carpeta de compilación
 /build/
 /bin/
+
+# Carpeta de configuración de VSCode
+.vscode/
