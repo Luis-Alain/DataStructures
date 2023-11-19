@@ -1,3 +1,9 @@
-*.exe
 .vscode
-g++ -o main.exe 
+# Archivos generados por la compilación
+*.o
+*.out
+*.exe
+
+# Carpeta de compilación
+/build/
+/bin/
