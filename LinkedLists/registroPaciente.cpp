@@ -149,9 +149,8 @@ int main() {
         {
         case 1:
         {
-            int cedula;
+            int cedula, edad;
             string nombre, apellido, direccion, telefono, seguro, sala;
-            int edad;
 
             cout << "Ingrese la cedula: ";
             cin >> cedula;

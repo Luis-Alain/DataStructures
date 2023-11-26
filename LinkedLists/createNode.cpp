@@ -9,28 +9,29 @@ public:
 };
 
 int main() {
+    //crear los nodos
     Node *head;
     Node *one = NULL;
     Node *two = NULL;
     Node *three = NULL;
 
-    // allocate 3 nodes in the heap
+    // colocar los nodos en la lista
     one = new Node();
     two = new Node();
     three = new Node();
 
-    // Assign value values
+    // asignar valores a cada nodo
     one->value = 1;
     two->value = 2;
     three->value = 3;
 
-    // Connect nodes
+    // Conectar los nodos
     one->next = two;
     two->next = three;
     three->next = NULL;
     head = one;
 
-    // print the linked list value
+    // imprimir los valores de la lista
     while (head != NULL) {
         cout << head->value << endl;
         head = head->next;
